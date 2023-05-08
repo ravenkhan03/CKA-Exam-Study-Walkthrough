@@ -106,7 +106,7 @@ Persistent Volumes:
   user would have to make changes to each pod manifest. 
 - administrator curve out a large ammount of storage, users than can curve out pieces
   from it, as required. 
-- a PVC, is a cluster wide pool of storage configured by admin, used by users deploying application on the clusters.
+- a PV, is a cluster wide pool of storage configured by admin, used by users deploying application on the clusters.
 
 apiVersion: v1
 kind: PersistentVolume
